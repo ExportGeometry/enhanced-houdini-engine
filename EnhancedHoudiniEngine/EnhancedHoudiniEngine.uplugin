@@ -1,0 +1,35 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "EngineVersion": "5.4.0",
+  "FriendlyName": "Enhanced Houdini Engine Plugin",
+  "Description": "Requires HoudiniEngineForUnreal v2.1.0",
+  "Category": "Rendering",
+  "CreatedBy": "Mason Stevenson",
+  "CreatedByURL": "http://exportgeometry.com",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Modules": [
+    {
+      "Name": "EnhancedHoudiniEngineRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "EnhancedHoudiniEngineEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "HoudiniEngine",
+      "Enabled": true
+    }
+  ]
+}
